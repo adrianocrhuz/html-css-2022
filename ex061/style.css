@@ -1,50 +1,71 @@
 @charset "utf-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f4f4f4;
 }
-#marca {
-    height: 300px;
-    line-height: 300px;
-    background: url(imagens/cabecalho2.jpg);
-    text-align: center;
-    font-size: 2em;
-}
 #container {
-    max-width: 85%;/* 85%*/
+    max-width: 720px;
     margin: 0 auto;
-    background: #fff;
+    background-color: #e3e1e8;
+}
+#marca {
+    text-align: center;
+    background: url(imagens/pizzaria-hero-fundo01.jpg) no-repeat center;
+    height: 400px;
+    line-height: 400px;
+    color: white;
 }
 #conteudo {
-    max-width: 73%; /*520*100/700=74%*/
-    float: right;
+    max-width: 520px;
+    float:right ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#conteudo h2 {
+    color: #c66300;
+    padding: 20px;
+
 }
 #conteudo-principal {
     max-width: 320px;
     float: left;
+    
 }
-
-#conteudo-secundario {
+#conteudo-segundario {
     max-width: 180px;
     float: right;
 }
+.imagem-conteudo {
+    max-width: 94%;
+    padding: 2%;
+    max-height: 50%;
+}
 #navegacao {
-    max-width: 23%; /*180*100/700=26%*/
+    max-width: 180px;
     float: left;
+    background: #888888;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #navegacao ul {
     list-style: none;
-    background-color: thistle;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 #navegacao li a {
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
 }
-#rodape {
+#rodape  {
     clear: both;
-    background-color: thistle;
-    padding: 5px;
+    background-color: #808285;
     text-align: center;
+    color: white;
+    padding: 5px;
 }

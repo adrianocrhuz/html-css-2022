@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#container {
+    font-family: sans-serif;
+    background: #cccccc;
+    max-width: 960px;
+    margin: 0 auto;
+    background: url(imagens/coluna.png) repeat-y left top;
+}
+#container h2 {
+    color: #8c082c;
+}
+#marca {
+    height: 500px;
+    line-height: 600px;
+    background: url(imagens/Restaurante.jpg);
+    text-align: center;
+}
+#marca h1 {
+    color: white;
+    font-size: 3em;
+}
+#conteudo {
+    max-width: 520px;
+    float: right;
+    background-color: white;
+    
+}
+#navegacao {
+    max-width: 180px;
+    padding-left: 20px;top: ;
+    padding-right: 20px;
+    float: left;
+}
+#navegacao ul {
+    list-style: none;
+}
+#navegacao li a {
+    text-decoration:none;
+    color: #8c082c;
+}
+#conteudo-principal {
+    max-width: 320px;
+    float: left;
+}
+.imagem-conteudo {
+    max-width: 94%;
+}
+#conteudo-secundario {
+    max-width: 180px;
+    float: right;
+}
+#rodape {
+    clear: both;
+    text-align: center;
+    background-color: #cccccc;
+}
+#rodape p {
+    padding: 5px;
+    font-weight: 600;
+}
