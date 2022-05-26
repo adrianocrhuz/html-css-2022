@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;  
+}
+#topo {
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    padding: 25px; 
+}
+#logo {
+    background: url(../imagens/logo.png) no-repeat left center;
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#topo ul {
+    float: left;
+    background: red;
+    margin-top: 30px;
+
+}
+#topo ul li {
+    float: left;
+}
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: white;
+}
+#topo ul a:hover {
+    background: black;
+}
+.home #navegacao a#home, .brasil #navegacao a#brasil,
+.internacional #navegacao a#internacional, .ciencia #navegacao a#ciencia,
+.saude #navegacao a#saude, .economia #navegacao a#economia,
+.fotos #navegacao a#fotos {
+    background: black;
+    cursor: text;
+}
+
+#rodape-principal {
+    clear: both;
+    background: turquoise;
+    padding: 5px;
+}
+#conteudo {
+    margin-top: 60px;
+}
+#primario {
+    float: left;
+    margin: 0 0 20 195px;
+    width: 250px;
+}
+#segundario {
+    float: left;
+    width: 250px;
+    margin: 0 0 20px 15px;
+}
+#lateral {
+    float: left;
+    margin: 0 0 20px -750px;
+    width: 180px;
+}
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+}
+#tres-colunas #primario {
+    float: left;
+    margin: 0 0 20px 195px;
+    width: 270px;
+}
+#duas-colunas #primario {
+    width: 555px;
+}
+#uma-coluna #primario {
+    margin: 0 0 20px 0px;
+    width: 750px;
+}
+.caixa {
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0px ;
+    padding: 5px 0 5px 0;
+    
+}
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}

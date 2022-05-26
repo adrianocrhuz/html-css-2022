@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url(../imagens/fundo.png) repeat-x;
+}
+#container {
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+#topo {
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    height: 150px;
+    padding: 25px;
+}
+#logo {
+    text-indent: -3000px;
+    background: url(../imagens/logo.png) no-repeat;
+    height: 66px;
+    width: 152px;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#topo ul {
+    background: red;
+    margin-top: 30px;
+    float: left;
+
+}
+#topo ul li {
+    float: left;
+}
+#topo ul a {
+    padding: 0.9em 1.5em;
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 1em;
+}
+#topo ul a:hover {
+    background:black;
+    cursor: text;
+}
+.home #navegacao a#home {
+    background:black;
+    cursor: text;
+}
+#conteudo {
+    margin-top: 60px;
+}
+#primario {
+    float: left;
+    margin: 0px 0px 20px 195px;
+
+}
+#segundario {
+    float: left;
+    margin: 0px 0px 20px 195px;
+}
+#lateral {
+    float: left;
+    margin: 0px 0px 20px -750px;
+}
+#container-rodape {
+    clear: both;
+    background: turquoise;
+}
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    padding: 10px;
+}
