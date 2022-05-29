@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background: url(../imagens/fundo.png);
+}
+
+table {
+    width: 900px;
+    margin: auto;
+}
+.logo {
+    text-align: left;
+    height: 89px;
+}
+
+td {
+    text-align: right;
+}
+.texto {
+    text-align: left;
+}
+.rodape {
+    text-align: center;
+}

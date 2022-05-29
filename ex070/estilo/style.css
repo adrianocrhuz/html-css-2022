@@ -32,7 +32,6 @@ ul {
     float: left;
     background: red;
     margin-top: 30px;
-
 }
 #topo ul li {
     float: left;
@@ -66,17 +65,17 @@ ul {
 }
 #primario {
     float: left;
-    margin: 0 0 20 195px;
-    width: 250px;
+    margin: 0px 0px 20px 195px;
+    width: 270px;
 }
 #segundario {
     float: left;
-    width: 250px;
-    margin: 0 0 20px 15px;
+    width: 270px;
+    margin: 0px 0px 20px 15px;
 }
 #lateral {
     float: left;
-    margin: 0 0 20px -750px;
+    margin: 0px 0px 20px -750px;
     width: 180px;
 }
 #rodape {
@@ -85,20 +84,20 @@ ul {
 }
 #tres-colunas #primario {
     float: left;
-    margin: 0 0 20px 195px;
+    margin: 0px 0px 20px 195px;
     width: 270px;
 }
 #duas-colunas #primario {
     width: 555px;
 }
 #uma-coluna #primario {
-    margin: 0 0 20px 0px;
+    margin: 0px 0px 20px 0px;
     width: 750px;
 }
 .caixa {
     background: #f3f3f3 url(../imagens/fundo-caixa.png);
     margin: 10px 0px ;
-    padding: 5px 0 5px 0;
+    padding: 5px 0px 5px 0px;
     
 }
 h2 {

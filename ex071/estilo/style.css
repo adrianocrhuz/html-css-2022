@@ -10,7 +10,6 @@ body {
 #container {
     width: 750px;
     margin: 0 auto;
-    border: 1px solid green;
 }
 #topo {
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
@@ -32,23 +31,22 @@ ul {
     background: red;
     margin-top: 30px;
     float: left;
-
 }
 #topo ul li {
     float: left;
 }
 #topo ul a {
-    padding: 0.9em 1.5em;
+    padding: 0.5em 1.5em;
     display: block;
     color: white;
     text-decoration: none;
-    line-height: 1em;
+    line-height: 2.1em;
 }
 #topo ul a:hover {
     background:black;
     cursor: text;
 }
-.home #navegacao a#home {
+.home #navegacao a#home,.brasil #navegacao a#brasil  {
     background:black;
     cursor: text;
 }
@@ -58,15 +56,18 @@ ul {
 #primario {
     float: left;
     margin: 0px 0px 20px 195px;
+    width: 270px;
 
 }
 #segundario {
     float: left;
-    margin: 0px 0px 20px 195px;
+    margin: 0px 0px 20px 15px;
+    width: 270px;
 }
 #lateral {
     float: left;
     margin: 0px 0px 20px -750px;
+    width: 180px;
 }
 #container-rodape {
     clear: both;
