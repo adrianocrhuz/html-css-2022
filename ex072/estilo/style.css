@@ -48,23 +48,34 @@ ul {
 #topo li a:hover {
     color: blue;
 }
-.home #navegacao  a#home {
+.home #navegacao  a#home, .brasil #navegacao a#brasil, .economia #navegacao a#economia, .internacional #navegacao a#internacional, .saude #navegacao a#saude, .ciencia #navegacao a#ciencia, .fotos #navegacao a#fotos {
     background: black;
 }
 #conteudo {
     margin-top: 60px;
+    
+}
+.caixa {
+    background: url(../imagens/fundo-caixa.png);
 }
 #primario {
     float: left;
     margin: 0px 0px 20px 195px;
-    background: violet;
     width: 270px;
 }
 #segundario {
     float: left;
     margin: 0px 0px 20px 15px;
-    background: turquoise;
     width: 270px;
+}
+.duas-colunas #segundario {
+    float: left;
+    margin: 0px 0px 20px 15px;
+    width: 555px;
+}
+.uma-coluna #segundario {
+    margin: 0px 0px 20px 15px;
+    width: 750pxpx;
 }
 #lateral {
     float: left;
@@ -72,6 +83,65 @@ ul {
     background: tomato;
     width: 180px;
 }
+h2 {
+    background: teal;
+    color: white;
+    padding: 3px;
+    font-size: 1.2em;
+}
+.destaque h3 {
+    padding: 5px;
+    background: salmon;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+img.figuras {
+    width: 100%;
+}
+
+
+#lateral ul {
+    padding: 10px;
+    background: white;
+    font-size: 0.9em;
+    line-height: 30px;
+}
+#lateral ul a {
+    text-decoration: none;
+    color: black;
+}
+#lateral ul a:hover {
+    background: url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: blue;
+}
+#lista-noticias {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a {
+    text-decoration: none;
+
+}
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0px;
+    color: #3e7ab9;
+}
+#lista-noticias li a p {
+    font-size: 0.7em;
+}
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
 #conteudo-rodape {
     clear: both;
     background: steelblue;

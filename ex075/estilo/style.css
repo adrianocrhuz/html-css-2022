@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Helvetica, 'Trebuchet MS', sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
+}
+#container {
+    background: #ede9cc; 
+}
+#topo {
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+    position: relative;
+}
+#area-logo {
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+#area-menu {
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    position: absolute;    
+    top: 0px;
+    right: 0px;
+
+
+
+}
