@@ -35,7 +35,7 @@ body {
     top: 15px;
     left: 15px;
     z-index: 3;
-    background: url(../imagens/logo.png) no-repeat left top;
+    background: url(../imagens/logo.png) no-repeat;
     width: 151px;
     height: 66px;
     text-indent: -3000px;
