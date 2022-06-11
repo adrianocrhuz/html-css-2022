@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../imagem/pexels-pixabay-415571.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 100%;
+    max-width: 500px;
+    background-color: blue;
+    padding: 35px;
+    background-color: transparent;
+    backdrop-filter: blur (0px);
+    border: 2px solid white;
+    overflow: hidden;
+    transition: backdrop-filter 1s;
+}
+.text {
+    color: red;
+    position: relative;
+    top: 200px;
+    transition: top 1s;
+}
+h1 {
+    padding: 10px;
+}
+#container:hover .text {
+    top: 0;
+
+}
+#container:hover {
+    backdrop-filter: blur(10px);
+}

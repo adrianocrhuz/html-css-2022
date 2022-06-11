@@ -61,11 +61,11 @@ ul {
     background-color: #de003e;
     cursor: text;
 }
+/*Configurar layuot de três colunas */
 #conteudo {
     margin-top: 60px;
     background: #f5f5f5;
 }
-
 #primario {
     width: 270px;
     float: left;
@@ -81,11 +81,9 @@ ul {
     float: left;
     margin: 0 0 20px -750px;
 }
-
 #container-rodape {
     padding: 20px;
-    color: #fff;
-    background: #294c71;;
+    background: #294c71;
 }
 #rodape {
     width: 750px;

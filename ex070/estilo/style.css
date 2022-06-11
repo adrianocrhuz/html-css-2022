@@ -43,6 +43,7 @@ ul {
     padding: 0.5em 1.5em;
     line-height: 2.1em;
     color: white;
+    background:  url(../imagens/divisor.png) no-repeat left center;
 }
 #topo ul a:hover {
     background: black;
