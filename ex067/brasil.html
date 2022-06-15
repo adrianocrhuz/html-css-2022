@@ -4,9 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body #duas-colunas class="brasil">
+    <div id="container"><!--incio container-->
+        <div id="topo"> <!--incio top0-->
+            <h1 class="logo">Notícias cidade</h1>
+
+            <ul id="navegacao">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a href="brasil.html">Brasil</a></li>
+                <li><a href="internacional.html">Internacional</a></li>
+                <li><a href="economia.html">Ecomonia</a></li>
+                <li><a href="ciencia.html">Ciência</a></li>
+                <li><a href="saude.html">Saúde</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+            </ul>
+        </div>
+        <div id="conteudo">
+            <div id="primario">
+                <div class="caixa destaque"> <!--incio caixa-->
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo"> <!--incio caixa-conteudo-->
+                        <h3 class="destaque">Nova legislação</h3>
+                        <img class="imagem-principal" src="imagens/taxi.jpg" alt="Imagem de táxi" width="100%">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#">Leia mais!</a>
+                    </div>
+
+                </div>
+                <div class="caixa"> <!--incio caixa-->
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo"> <!--incio caixa-conteudo-->
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                <img src="imagens/tecnologia.jpg" alt="tecnologia" width="80">
+                                <h3>CRISE EUROPÉIA</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="imagens/tecnologia.jpg" alt="tecnologia" width="80">
+                                <h3>USA TENTAM NOVO ACORDO</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="imagens/tecnologia.jpg" alt="tecnologia" width="80">
+                                <h3>GUERRA NA SÍRIA</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="imagens/tecnologia.jpg" alt="tecnologia" width="80">
+                                <h3>RUSSIA APROVA LEI</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <div id="lateral"> <!--incio lateral-->
+                <div class="caixa"> <!--incio caixa-->
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo"> <!--incio caixa-conteudo-->
+                        <ul>
+                            <li><a href="#">José Almeida</a></li>
+                            <li><a href="#">Felipe Silva</a></li>
+                            <li><a href="#">Renato Rodrigues</a></li>
+                            <li><a href="#">Aberlado Silveira</a></li>
+                            <li><a href="#">André Carlos</a></li>
+                            <li><a href="#">Márcio Mello</a></li>
+                            <li><a href="#">João Pedro</a></li>
+                            <li><a href="#">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                    <div class="caixa"> <!--incio caixa-->
+                        <h2>News</h2>
+                        <div class="caixa-conteudo"> <!--incio caixa-conteudo-->
+                            <form action="">
+                                <div>
+                                    <label for="email">E-mail:</label>
+                                    <input type="text" name="email" id="email" placeholder="E-mail">
+                                </div>
+                                <div>
+                                    <input class="submit" type="submit" value="Cadastrar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <div id="container-rodape">
+        <div id="rodape">
+            &copy;Copyright 2000 - 20222 Notícias cidade
+        </div>
+    </div>
 </body>
 </html>
