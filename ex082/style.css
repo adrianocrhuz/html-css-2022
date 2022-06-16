@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "RoadRage";
+    src: url("fontes/RoadRage.woff");
+}
+
+@font-face {
+    font-family: Heart;
+    src: url("fontes/BringHeart.woff");
+}
+@font-face {
+    font-family: Ancient;
+    src: url("fontes/Ancient-Medium.woff");
+}
+
+h1 {
+    font-family:"Ancient";
+    font-size: 6em;
+}

@@ -18,7 +18,7 @@ h3 {
     color: #111;
     text-align: center;
 }
-/*Efeito Paralax*/
+/*Efeito Parallax*/
 .caixa1, .caixa2, .caixa3, .caixa4 {
     height: 100%;
     opacity: 0.7;
