@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+header {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #f2f2f2;
+}
+nav {
+    border: 1px solid red;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+footer {
+    background: #ccc;
+    padding: 5px;
+}
