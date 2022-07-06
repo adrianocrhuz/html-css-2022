@@ -50,17 +50,50 @@ nav ul li a:hover {
 #conteudo {
     max-width: 710px;
     float: left;
+    margin-bottom: 20px;
 }
 aside {
     max-width: 350px;
     float: right;
     background:#ebe7dd;
     padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 section#visita {
     background: #cdc8b1;
     padding: 10px 27px 27px 27px;
     margin-top: 10px;
+}
+/*Video*/
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+/*Mapa*/
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+/*Exposições*/
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0px 0px 25px;
+}
+/*História*/
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0px 0px 37px;
+}
+
+h3 {
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 h4 {
     color: #86521a;
@@ -68,6 +101,7 @@ h4 {
     padding-bottom: 3px;
     margin-bottom: 0px;
 }
+
 /*Formulários*/
 input {
     background: #ffffff;
@@ -107,4 +141,15 @@ section#galeria img {
 
     margin-left: 2px;
     margin-top: 3px;
+}
+/*Rodapé*/
+footer {
+    clear: both;
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background: url(../imagens/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+footer > p a {
+    padding: 2px 10px;
 }
