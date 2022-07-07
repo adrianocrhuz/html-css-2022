@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+    background: url(../imagens/fundo.png) repeat-x;
+    font: 12px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+#logo h1 {
+    float: left;
+}
+#logo a {
+    max-width: 248px;
+    height: 21px;
+    background: url(../imagens/logo.png) no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+header {
+    border: 1px solid green;
+    padding: 15px 0px;
+    height: 55px;
+}
+a:link, a:active, a:visited {
+    color: #af670a;
+    text-decoration: none;
+}
+a:houver {
+    color: #227115;
+}
+nav ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+nav ul li {
+    float: right;
+}
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding: 3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
