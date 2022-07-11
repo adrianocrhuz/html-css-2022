@@ -1,24 +1,22 @@
 @charset "UTF-8";
+
 body {
-    background: url(../imagens/fundo.png) repeat-x;
-    font: 12px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+    font: 12 "Lucida Grande" 'Lucida Sans Unicode', Ariel, sans-serif;
 }
 main {
-    margin: 0 auto;
     max-width: 1080px;
-}
-#logo h1 {
-    float: left;
+    min-width: 280px;
+    margin: 0 auto; 
 }
 #logo a {
-    max-width: 248px;
-    height: 21px;
     background: url(../imagens/logo.png) no-repeat;
-    text-indent: -9999px;
     display: block;
+    text-indent: -9999px;
+    width: 248px;
+    height: 21px;
 }
 header {
-    border: 1px solid green;
     padding: 15px 0px;
     height: 55px;
 }
@@ -26,23 +24,23 @@ a:link, a:active, a:visited {
     color: #af670a;
     text-decoration: none;
 }
-a:houver {
-    color: #227115;
+a:hover {color: #227115;
+
 }
 nav ul {
     list-style: none;
-    margin: 20px;
     float: right;
+    margin: 20px;
 }
 nav ul li {
-    float: right;
+    float: left;
 }
 nav ul li a:link {
     display: block;
-    margin-right: 25px;
-    padding: 3px;
+    margin-right: 20px;
+    padding-bottom: 3px;
     text-transform: uppercase;
 }
-nav ul li a:hover{
-    border-bottom: 1px solid #535858;
+nav ul li a:hover {
+    border-bottom: 1px solid #535959;
 }
