@@ -1,31 +1,88 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Title</title>
+    <title>Bootstrap - Classes flexbox</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <Style>
+        .caixa {
+        background: #f5f5f5;
+        height: 200px;
+        }
+        .item {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </Style>
   </head>
   <body>
 
-    Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse)
-    Flex item 1
-    Flex item 2
-    Flex item 3
+    <div class="container">
+            <h2>Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse)</h2>
+            
+            <div class="caixa d-flex flex-row-reverse">
+                <div class="item">Flex item 1</div>
+                <div class="item">Flex item 2</div>
+                <div class="item">Flex item 3</div>
+            </div>
+            <br><br>
+        
 
 
-    Alinhamento horizontal: justify-content-ALINHAMENTO (start, center, end, around e between)
-    Flex item 1
-    Flex item 2
-    Flex item 3
+        <h2>Alinhamento horizontal: justify-content-ALINHAMENTO (start, center, end, around e between)</h2>
+        
+        <div class="caixa d-flex justify-content-around">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+        </div>
+        <br><br>
 
-    <h2>Flex</h2>
-    <p>Gerencie rapidamente o layout, alinhamento e dimensionamento de colunas de grade, navegação, componentes e muito mais com um conjunto completo de utilitários flexbox responsivos. Para implementações mais complexas, CSS personalizado pode ser necessário.</p>
-    <a href="https://getbootstrap.com/docs/4.0/utilities/flex/">Flex</a>
+        <h2>Colunas (d-flex, flex-column, flex-column-reverse)</h2>
+        
+        <div class="caixa d-flex flex-column-reverse">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+        </div>
 
+        <h2>Alinhamento vertical: align-items-ALINHAMENTO (start, center, end, baseline e stretch</h2>
+        
+        <div class="caixa d-flex align-items-end">
+            <div class="item" style="padding-top:30px;">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item" style="padding-bottom:50px;">Flex item 3</div>
+        </div>
+
+        <h2>Alinhamento self: align-self-ALINHAMENTO (start, center, end, baseline e stretch</h2>
+
+        <div class="caixa d-flex">
+            <div class="item align-self-start">Flex item 1</div>
+            <div class="item align-self-center">Flex item 2</div>
+            <div class="item align-self-end">Flex item 3</div>
+            <div class="item align-self-baseline">Flex item 4</div>
+            <div class="item align-self-stretch">Flex item 5</div>
+        </div>
+        <br><br>
+
+        <h2>Flex</h2>
+
+        <p>Gerencie rapidamente o layout, alinhamento e dimensionamento de colunas de grade, navegação, componentes e muito mais com um conjunto completo de utilitários flexbox responsivos. Para implementações mais complexas, CSS personalizado pode ser necessário.</p>
+        
+        <a href="https://getbootstrap.com/docs/4.0/utilities/flex/">Flex</a>
+        <br>
+        <br>
+
+</div>
+
+
+
+    
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
