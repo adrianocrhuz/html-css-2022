@@ -35,6 +35,9 @@ nav.navbar-transparente {
 .capa {
     text-align: center;
 }
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
 /*Estrutura conteúdos*/
 #servicos {
     background: white;
