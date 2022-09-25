@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/453a95e5f5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <main class="container">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <img id="logo" src="img/logo.png" alt="JobFinder">
+                    <ul>
+                        <li><a href="#">Encontrar vaga</a></li>
+                        <li><a href="#">Enviar vaga</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav> <!--fim do nav-->
+            <div id="main-banner">
+                <div id="search-form">
+                    <h1>A maneira mais fácil de encontrar seu novo emprego</h1>
+                    <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos</p>
+                    <form>
+                        <input type="text" name="job" placeholder="Digite o cargo">
+                        <select name="region">
+                            <option value="">Todos os estados</option>
+                        </select>
+                        <select name="category">
+                            <option value="">Categoria</option>
+                        </select>
+                        <input type="submit" value="Pesquisar">
+                    </form>
+                </div>
+            </div>
+        </header> <!--fim do cabeçalho-->
+        <section id="lastjobs-container" class="wrapper">
+            <h1>Últimas vagas enviadas</h1>
+            <ul>
+                <li>
+                    <a href="" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/googlelogo.png" alt="">
+                            <div class="company-info">
+                                <h3>Developer</h3>
+                                <p>Goole</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Mountain View, California</p>
+
+                        </div>
+                        <div class="job-type">
+                            <span class="clt">CLT</span>
+
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/ibmlogo.png" alt="">
+                            <div class="company-info">
+                                <h3>DBA</h3>
+                                <p>IBM</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Armonk, New York</p>
+
+                        </div>
+                        <div class="job-type">
+                            <span class="pj">PJ</span>
+
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/linkedinlogo.png" alt="">
+                            <div class="company-info">
+                                <h3>Front End Developer</h3>
+                                <p>Linkeding</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Sunnyvale, California</p>
+
+                        </div>
+                        <div class="job-type">
+                            <span class="homeoffice">Home Office</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/facebooklogo.png" alt="">
+                            <div class="company-info">
+                                <h3>Full Stack Developer</h3>
+                                <p>Facebook</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Menio Park, California</p>
+
+                        </div>
+                        <div class="job-type">
+                            <span class="pj">PJ</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="btn-jobs-container">
+                <a href="#" class="btn-jobs">Ver mais vagas</a>
+            </div>
+
+        </section>
+    </main>
+
+    
+</body>
+</html>

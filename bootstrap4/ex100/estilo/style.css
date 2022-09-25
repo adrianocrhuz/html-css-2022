@@ -1,0 +1,54 @@
+.row {
+    margin:0px
+}
+.container {
+    padding: 70px 0px;
+}
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+header, .navbar {
+    background-color: #fff;
+}
+#nav-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.logo {
+    width: 120px;
+}
+.navbar-brand {
+    padding: 0px;
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: black;
+}
+#navbar-links a {
+    color: red;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+#mainslider .carousel-inner, #mainslider .carousel-item {
+    height: 100vh;
+}
+#mainslider, carousel-caption {
+    top: 30%;
+}
+#mainslider .carousel-item .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#mainslider .carousel-item, .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 200px;
+    color: white;
+}
