@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções na prática</title>
+    <script>
+        //void
+        function calcularAreaTerreno (largura, comprimento) {
+            //lógica
+            var area = largura * comprimento
+            document.write(' O terreno possui ' + area + ' metros quadrados ')
+        }
+        calcularAreaTerreno(15, 25)
+
+        document.write('<br/>')
+        
+        //retorno
+        function calcularAreaTerreno ( largura, comprimento ) {
+            //lógica
+            var area = largura * comprimento
+
+            return area
+        }
+        document.write(' O terreno possui ' + calcularAreaTerreno(15, 25 ) + ' metros quadrados')
+
+        document.write('<br/>')
+
+        //retorno
+        function calcularAreaTerreno ( largura, comprimento) {
+            //lógica
+            var area = largura * comprimento
+
+            return area
+        }
+        var area = calcularAreaTerreno(15,25)
+        document.write(' O terreno possui ' + area + ' metros quadrados')
+
+        document.write('<br/>')
+
+        function calcularAreaTerreno ( largura, comprimento) {
+             //lógica
+        var area = largura * comprimento
+
+        return area
+        }
+
+        var largura = prompt('Digite a largura do terreno em metros')
+        var comprimento = prompt('Digite o comprimento do terreno em metros')
+
+        var area = calcularAreaTerreno(largura, comprimento)
+
+        document.write(' O terreno possui ' + area + ' metros quadrados')
+
+        document.write("<br/>")
+
+        var largura = prompt('Digite a largura do terreno em metros')
+        var comprimento = prompt('Digite o comprimento do terreno em metros quadrados')
+
+        var area = calcularAreaTerreno(largura, comprimento)
+
+        document.write(' O terreno possui ' + area + ' metros quadrados')
+
+        function calcularAreaTerreno (largura, comprimento) {
+            //lógica
+            var area = largura * comprimento
+
+            return area
+        }
+
+       
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
