@@ -10,14 +10,15 @@
 
         listaFuncionarios['x'] = 'Viviane'
         listaFuncionarios[false] = 'Rosângela'
-        listaFuncionarios[3] = 'Miguel'
-        listaFuncionarios[27] = 'Lucas'
+        listaFuncionarios[3] = 'Miguel'//
+        listaFuncionarios[27] = 'Lucas'//
         listaFuncionarios[-12] ='Fernanda'
-
+        
         var f = function(valor, indice) {
             console.log(valor, indice)
         }
         listaFuncionarios.forEach(f)
+        
 
         /*var listaFuncionarios = ['Viviane', 'Rosângela', 'Miguel', 'Lucas', 'Fernanda']
 
@@ -46,6 +47,8 @@
             //lógica
             console.log(' indice: ' + indice + ' | valor: ' + valor)
             
+            
+            // aqui substitui o indice lucas por um novo valor
             if(valor == 'Lucas') {
                 array[indice] = 'Sophia'
             }
