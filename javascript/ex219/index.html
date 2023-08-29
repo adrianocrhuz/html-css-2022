@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js" defer></script>
     <script>
         let janela
 
         function abrirPopup() {
-            window.open('https://madalosso.com.br/', 'nova_janela','width=200, heigth=200')
+           janela =  window.open('https://madalosso.com.br/', 'nova_janela','width=200, heigth=200')
         }
         function fecharPopup() {
             janela.close()
 
         }
+
+
+
+
     </script>
 </head>
 <body>
-
+    
     <button onclick="abrirPopup()">Abrir Janela</button>
     <button onclick="fecharPopup()">Fechar Janela</button>
     <button onclick="window.print()">Imprimir página</button>
+
+    <h1>Datas de JavaScript</h1>
+    <h2>Usando new Date ()</h2>
+    <p>new Date() sem argumentos, cria um objeto de data com a data e hora atuais:</p>
+
+
+    <p id="demo"></p>
+
     
 </body>
 </html>
