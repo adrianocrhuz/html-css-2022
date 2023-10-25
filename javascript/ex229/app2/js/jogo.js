@@ -16,12 +16,10 @@ function posicaoRandomica() {
     if(document.getElementById('mosquito')) {
         document.getElementById('mosquito').remove()
     }
+    let posicaoX = Math.floor(Math.random() * altura) - 90 //para a img não trapassar a dimensão da tela
+    let posicaoY = Math.floor(Math.random() * largura) - 90 //para a img não trapassar a dimensão da tela
 
-    let posicaoX = Math.floor(Math.random() * altura) - 90
-    let posicaoY = Math.floor(Math.random() * largura) - 90
-
-    //criar o operador ternário da posicaoX e posicaoY
-
+    //criar o operador ternário da posicaoX e posicaoY 
     posicaoX = posicaoX < 0 ? 0 : posicaoX
     posicaoY = posicaoY < 0 ? 0 : posicaoY
 
@@ -30,7 +28,7 @@ function posicaoRandomica() {
     //adionar a img via JS
     mosquito.src = "imagens/mosquito.png"
     //Chamar a class mosquito1
-    mosquito.className = tamanhoAleatorio() + ' ' + LadoAleatorio()
+    mosquito.className = tamanhoAleatorio() + ' ' + LadoAleatorio() //'mosquito1'
 
     //criar os estilos do css da img
     mosquito.style.left = posicaoX + 'px'
@@ -40,7 +38,7 @@ function posicaoRandomica() {
     //aplicar um id para que apareça um mosquito a cada intervalo
     mosquito.id = 'mosquito'
 
-    //escrever a img de forma programatica no bady
+    //escrever a img de forma programatica no body
     document.body.appendChild(mosquito)
 
     console.log(LadoAleatorio())
@@ -55,7 +53,7 @@ function tamanhoAleatorio() {
     //definir o tamanho do mosquito
     switch(classe) {
         case 0:
-            return ' mosquito1'
+            return 'mosquito1'
         case 1:
             return 'mosquito2'
         case 2:
@@ -69,7 +67,7 @@ function LadoAleatorio() {
 
     switch(classe) {
         case 0:
-            return ' ladoA'
+            return 'ladoA'
         case 1:
             return 'ladoB'
     }
