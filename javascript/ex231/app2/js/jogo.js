@@ -9,7 +9,7 @@ function ajustaTamanhoPalcoJogo() {
     console.log(altura,largura)
 }
 // adicionar a função no body usando o onresize
-ajustaTamanhoPalcoJogo() 
+ajustaTamanhoPalcoJogo() //
 
 function posicaoRandomica() {
     //criando a posição randomica
