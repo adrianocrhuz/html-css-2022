@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <!--link externo JS-->
+    <script src="js/jogo.js"></script>
+</head>
+<body onresize="ajustaTamanhoPalcoJogo()">
+    <!--
+        <img src="../app2/imagens/mosquito.png" alt="Mosquito" class="mosquito1">
+    -->
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="../app2/imagens/coracao_cheio.png" alt="coração">
+            <img id="v2" src="../app2/imagens/coracao_cheio.png" alt="coração">
+            <img id="v3" src="../app2/imagens/coracao_cheio.png" alt="coração">
+        </div>
+        <div class="cronometro">Tempo restante: ?</div>
+    </div>
+    
+    <script>
+        
+        setInterval(function() {
+            posicaoRandomica()
+        },2000)
+    </script>
+</body>
+</html>
